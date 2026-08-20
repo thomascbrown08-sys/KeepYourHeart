@@ -5,9 +5,15 @@ slot degrades gracefully: if a file is missing, a layered gradient renders in it
 place and the page still looks intentional. So generate them in any order, and a
 half-finished set will never look broken.
 
-**Format:** wide crops. Heroes read at roughly 3:1 on desktop, so compose with the
-subject slightly above centre — the bottom third is covered by a navy scrim that
-carries the page text. Plates read at roughly 2:1.
+**Format:** your 1024×572 output is exactly right — keep it. The slots now use
+`aspect-ratio: 1024/572`, so nothing gets cropped and the parchment border you added
+survives intact. Anything close to 16:9 will work; wildly different ratios will letterbox.
+
+**Keep the torn-paper border.** That was your addition, not my spec, and it's better than
+what I asked for — it unifies the set and lets the art sit on the parchment page without a
+hard edge. Do it on all of them.
+
+**Filenames are case-sensitive on GitHub Pages.** All lowercase, `.jpg`, exactly as listed.
 
 ---
 
@@ -28,6 +34,17 @@ Every image should have a light source in it somewhere. The book argues that the
 is not the last word; the art should not contradict it on the way in.
 
 ---
+
+## Done ✓
+
+`ch01` · `ch02` · `ch03` · `ch03-plate` · `ch04` · `ch04-plate`
+
+## Still needed for chapters already written
+
+`hero` · `ch05` · `ch05-plate` · `ch06` · `ch06-plate` · `ch07` · `ch07-plate` ·
+`ch08` · `ch08-plate` · `ch09` · `ch09-plate` · `ch10` · `ch10-plate`
+
+Open `images.html` in the site at any time for a live checklist.
 
 ## Built pages
 
@@ -85,6 +102,30 @@ locked.
 *Why:* the creed as a fence around a mystery, not an explanation of it. Note the field
 should look *spacious* — the fence is not a cage.
 
+### `ch05-plate.jpg` — Brother Lawrence
+> A seventeenth-century monastery kitchen: a scrubbed wooden table, a stack of plates, a
+> copper pot, a single high window throwing light across the floor. Nobody in the room.
+
+### `ch06-plate.jpg` — Lloyd-Jones
+> A doctor's leather bag and stethoscope set down on a chapel pew beside a worn hymnbook.
+> Late afternoon light through plain glass.
+
+### `ch07-plate.jpg` — Joseph Hall
+> A small, plainly bound book lying open on a windowsill, pages weighted by a stone. A
+> quiet English garden beyond the glass.
+
+### `ch08-plate.jpg` — Baxter
+> A tall stack of hand-bound books on a desk beside a physician's glass bottle and a single
+> unlit candle. Warm dim interior.
+
+### `ch09-plate.jpg` — the oil press
+> An ancient stone olive press in a walled grove at night, the great circular stone worn
+> smooth. Moonlight. No figures.
+
+### `ch10-plate.jpg` — Psalm 88
+> An open medieval psalter on a lectern in a dim church, showing musical notation rather
+> than legible words, one candle burning low beside it.
+
 ---
 
 ## Queued (generate whenever, slots not yet live)
@@ -108,6 +149,25 @@ should look *spacious* — the fence is not a cage.
 
 ## Adding art to the site
 
-1. Save as `.jpg` into `assets/img/` with the exact filename.
+1. Save as `.jpg` into `assets/img/` with the exact filename, all lowercase.
 2. Rebuild is not required — the slots are already in the HTML.
-3. If a filename does not match, nothing breaks; the gradient simply stays.
+3. Open `images.html` to confirm each one is actually reachable.
+
+## If images do not appear on GitHub Pages
+
+**Do not assume it is the images.** Work down this list in order; the first two catch
+almost everything.
+
+1. **Open `images.html` on the live site.** It tests every expected file and tells you
+   which ones failed. This is faster than any other diagnostic.
+2. **Paste one image URL directly into the address bar** —
+   `https://<you>.github.io/<repo>/assets/img/ch01.jpg`. A 404 means the file is not where
+   the book is looking. A successful load means the file is fine and the problem is
+   caching — hard refresh.
+3. **Check `assets/img/` actually exists in the repo listing on github.com.** Git does not
+   track empty folders, so if you committed the site before adding any art, that folder was
+   silently dropped and later uploads may have landed at the repo root instead. The
+   `.gitkeep` file now shipped inside it prevents this from recurring.
+4. **Check the capitals.** GitHub Pages is case-sensitive; your own computer is not. `Ch01.JPG`
+   will work locally and fail live.
+5. **Give it two minutes.** Pages rebuilds after each push and is not instant.

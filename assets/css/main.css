@@ -298,48 +298,58 @@ hr{border:0;border-top:1px solid var(--rule);margin:2.6rem 0;}
 .nutshells-group h3 a{text-decoration:none;color:inherit;}
 
 /* ---------- Images ----------
-   Art is optional by design: each slot carries a layered gradient beneath
-   the artwork, so a missing or not-yet-generated image degrades to an
-   intentional-looking field rather than a broken box. */
+   Real <img> elements, not CSS custom properties: browsers resolve src
+   against the document every time, a failed load is detectable, and the
+   file can be lazy-loaded and cached properly.
+
+   aspect-ratio matches the artwork (1024x572) so nothing is ever cropped.
+   The generated art carries its own parchment border, and cropping it
+   would cut that border off. A gradient sits behind as the fallback, so a
+   missing image still renders as an intentional field. */
 
 .hero{
-  margin:0 0 1.6rem;
-  height:15rem;
+  position:relative;
+  margin:0 0 1.7rem;
+  aspect-ratio:1024 / 572;
   border-radius:3px;
-  background-color:var(--navy);
-  background-image:
-    linear-gradient(180deg, rgba(30,44,64,.05) 0%, rgba(30,44,64,.55) 72%, rgba(30,44,64,.82) 100%),
-    var(--art, none),
-    linear-gradient(150deg, #2b3d54 0%, #4a5a6e 45%, #8a6a3c 100%);
-  background-size:cover, cover, cover;
-  background-position:center, center 42%, center;
-  background-repeat:no-repeat;
+  overflow:hidden;
+  background:linear-gradient(150deg,#2b3d54 0%,#4a5a6e 45%,#8a6a3c 100%);
   box-shadow:inset 0 0 0 1px rgba(0,0,0,.12);
 }
-@media (max-width:860px){ .hero{height:11rem;} }
+.hero img{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
+}
 
 figure.plate{
-  margin:2.2rem 0;
+  margin:2.3rem 0;
   padding:0;
 }
 figure.plate .art{
-  height:11rem;
+  position:relative;
+  aspect-ratio:1024 / 572;
   border-radius:3px;
-  background-color:var(--paper-2);
-  background-image:
-    linear-gradient(180deg, rgba(30,44,64,.02), rgba(30,44,64,.28)),
-    var(--art, none),
-    linear-gradient(150deg, #d8cbb2 0%, #a9a08c 55%, #6b6f7a 100%);
-  background-size:cover, cover, cover;
-  background-position:center;
-  background-repeat:no-repeat;
+  overflow:hidden;
+  background:linear-gradient(150deg,#d8cbb2 0%,#a9a08c 55%,#6b6f7a 100%);
   box-shadow:inset 0 0 0 1px rgba(0,0,0,.12);
+}
+figure.plate .art img{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
 }
 figure.plate figcaption{
   font-size:.78rem;
   color:var(--grey);
   font-style:italic;
-  margin-top:.5rem;
+  margin-top:.55rem;
   line-height:1.5;
 }
 
@@ -412,4 +422,6 @@ footer.foot a{color:var(--navy-soft);}
   a{color:#000;text-decoration:none;}
   h2,h3{page-break-after:avoid;}
   .practice{page-break-inside:auto;}
+  .hero{display:none;}
+  figure.plate{page-break-inside:avoid;}
 }
