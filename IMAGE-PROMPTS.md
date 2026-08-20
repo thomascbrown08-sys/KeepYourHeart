@@ -43,7 +43,8 @@ is not the last word; the art should not contradict it on the way in.
 
 `hero` · `ch05` · `ch05-plate` · `ch06` · `ch06-plate` · `ch07` · `ch07-plate` ·
 `ch08` · `ch08-plate` · `ch09` · `ch09-plate` · `ch10` · `ch10-plate` ·
-`ch11` · `ch11-plate` · `ch12` · `ch12-plate`
+`ch11` · `ch11-plate` · `ch12` · `ch12-plate` · `ch13` · `ch13-plate` ·
+`ch14` · `ch14-plate` · `ch15` · `ch15-plate` · `ch16` · `ch16-plate`
 
 Open `images.html` in the site at any time for a live checklist.
 
@@ -144,6 +145,40 @@ should look *spacious* — the fence is not a cage.
 > A small barred window high in a rough stone cell wall, a plank table below it with an
 > inkpot, a quill, and a stack of written pages weighted by a stone. Morning light.
 
+### `ch13.jpg` — Ordered Affections
+> An old walled garden half reclaimed: one side pruned and ordered with clipped hedges and
+> a gravel path, the other still overgrown with bramble and long grass. Late golden light
+> across both.
+
+### `ch13-plate.jpg` — Edwards
+> A plain colonial meeting-house interior, empty box pews in rows, one shaft of light from
+> a tall clear window falling across the boards. No figures.
+
+### `ch14.jpg` — Truth in Love
+> Two simple wooden chairs turned to face each other across a small table by a bright
+> window. Both empty. A cup on the table.
+
+### `ch14-plate.jpg` — the conversation
+> A doorway seen from a hallway, warm light within, the door standing half open. Somebody
+> has stopped just short of it. No figure visible.
+
+### `ch15.jpg` — Burdens and Loads
+> Two distant figures on a hill path at dusk, small in a wide landscape. One carries a
+> heavy pack; the other has turned back and is reaching out a hand. Faces not visible.
+
+### `ch15-plate.jpg` — the body
+> A stone bridge of many arches crossing a wide river in soft morning light, each arch
+> carrying its share of the span.
+
+### `ch16.jpg` — A Life You Did Not Build
+> A long wooden table laid for a meal in an orchard at golden hour — cloth, plates, cups,
+> bread, places set. Warm low light through the trees. Nobody seated yet. Welcoming, not
+> lonely.
+
+### `ch16-plate.jpg` — Bemerton
+> A small English country church and rectory beside a stream in soft evening light, water
+> meadows beyond. Modest, quiet, entirely ordinary.
+
 ---
 
 ## Queued (generate whenever, slots not yet live)
@@ -156,10 +191,6 @@ should look *spacious* — the fence is not a cage.
 | `ch08.jpg` | Examined but Not Absorbed | A hand-held mirror lying face-up on a table, reflecting a window rather than a face. |
 | `ch09.jpg` | The Cup and the Garden | An olive grove at night under a heavy moon, ancient gnarled trunks, one patch of ground disturbed. No figure. |
 | `ch10.jpg` | Lament | Rain on a stone church step at night with warm light spilling out of the half-open door behind it. |
-| `ch13.jpg` | Ordered Affections | An overgrown formal garden being brought back into order, half wild and half pruned, in late light. |
-| `ch14.jpg` | Truth in Love | Two chairs turned toward each other across a small table by a window, both occupied-looking but empty. |
-| `ch15.jpg` | Burdens and Loads | Two figures at a distance on a hill path, one carrying a pack, the other reaching back a hand. |
-| `ch16.jpg` | A Life You Did Not Build | A long table laid and lit in an orchard at golden hour, places set, nobody seated yet. |
 
 ---
 
