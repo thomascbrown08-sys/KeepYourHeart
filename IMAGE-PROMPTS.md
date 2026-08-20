@@ -35,16 +35,17 @@ is not the last word; the art should not contradict it on the way in.
 
 ---
 
-## Done ✓
+## Done ✓ — 25 of 31
 
-`ch01` · `ch02` · `ch03` · `ch03-plate` · `ch04` · `ch04-plate`
+Everything except the six below.
 
-## Still needed for chapters already written
+## Still needed
 
-`hero` · `ch05` · `ch05-plate` · `ch06` · `ch06-plate` · `ch07` · `ch07-plate` ·
-`ch08` · `ch08-plate` · `ch09` · `ch09-plate` · `ch10` · `ch10-plate` ·
-`ch11` · `ch11-plate` · `ch12` · `ch12-plate` · `ch13` · `ch13-plate` ·
-`ch14` · `ch14-plate` · `ch15` · `ch15-plate` · `ch16` · `ch16-plate`
+`ch05` · `ch06` · `ch07` · `ch08` · `ch09` · `ch10`
+
+These are the chapter heroes for Parts II and III. All six of their *plates* are done — it
+is only the wide header images that are outstanding. Prompts for all six are in the queued
+table further down.
 
 Open `images.html` in the site at any time for a live checklist.
 

@@ -359,6 +359,83 @@ figure.plate figcaption{
   line-height:1.5;
 }
 
+/* ---------- Back matter ---------- */
+
+.tier-key{margin:2rem 0;}
+.tier-key .box{margin:1rem 0;}
+
+table.ref{
+  width:100%;
+  border-collapse:collapse;
+  font-size:.86rem;
+  margin:1.4rem 0;
+}
+table.ref th{
+  text-align:left;
+  font-size:.7rem;
+  text-transform:uppercase;
+  letter-spacing:.12em;
+  color:var(--ink-soft);
+  border-bottom:2px solid var(--rule);
+  padding:.4rem .6rem .4rem 0;
+  font-weight:700;
+}
+table.ref td{
+  border-bottom:1px solid var(--rule);
+  padding:.55rem .6rem .55rem 0;
+  vertical-align:top;
+}
+table.ref td:first-child{font-weight:600;white-space:nowrap;}
+table.ref tr:hover td{background:var(--paper-2);}
+
+dl.gloss{margin:1.4rem 0;}
+dl.gloss dt{
+  font-weight:600;
+  margin:1.3rem 0 .2rem;
+  font-size:1rem;
+}
+dl.gloss dt .src{
+  font-size:.68rem;
+  text-transform:uppercase;
+  letter-spacing:.1em;
+  font-weight:700;
+  margin-left:.5rem;
+  padding:.1rem .4rem;
+  border-radius:2px;
+  vertical-align:.1em;
+}
+dl.gloss dt .src.psy{background:#e6edf5;color:var(--navy-soft);}
+dl.gloss dt .src.theo{background:#f2e9d8;color:var(--amber);}
+dl.gloss dd{margin:0;font-size:.92rem;}
+dl.gloss dd .where{font-size:.78rem;color:var(--grey);font-style:italic;}
+
+.logitem{
+  margin:1.6rem 0;
+  padding-left:1rem;
+  border-left:3px solid var(--rule);
+}
+.logitem h3{margin:0 0 .3rem;font-size:.98rem;}
+.logitem .verdict{
+  font-size:.7rem;text-transform:uppercase;letter-spacing:.11em;
+  font-weight:700;color:var(--amber);display:block;margin-bottom:.25rem;
+}
+.logitem p{font-size:.9rem;margin:0 0 .5rem;}
+
+.form-field{margin:1.1rem 0;}
+.form-field label{
+  display:block;font-size:.76rem;text-transform:uppercase;
+  letter-spacing:.1em;font-weight:700;color:var(--ink-soft);
+  margin-bottom:.3rem;
+}
+.form-field .lines{
+  border-bottom:1px solid var(--rule);
+  height:1.75rem;
+}
+.form-field .lines + .lines{margin-top:0;}
+.form-field .hint{font-size:.76rem;color:var(--grey);font-style:italic;margin:.2rem 0 .4rem;}
+.form-row{display:flex;gap:1rem;}
+.form-row .form-field{flex:1 1 0;min-width:0;}
+
 /* ---------- Chapter navigation ---------- */
 
 .chapnav{
