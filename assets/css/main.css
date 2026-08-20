@@ -345,6 +345,12 @@ figure.plate .art img{
   object-fit:cover;
   display:block;
 }
+/* If aspect-ratio is unavailable, fall back to the padding trick so the
+   container still reserves height and text can never land on the art. */
+@supports not (aspect-ratio: 1 / 1){
+  .hero, figure.plate .art{ height:0; padding-top:55.86%; }
+}
+
 figure.plate figcaption{
   font-size:.78rem;
   color:var(--grey);

@@ -42,7 +42,8 @@ is not the last word; the art should not contradict it on the way in.
 ## Still needed for chapters already written
 
 `hero` · `ch05` · `ch05-plate` · `ch06` · `ch06-plate` · `ch07` · `ch07-plate` ·
-`ch08` · `ch08-plate` · `ch09` · `ch09-plate` · `ch10` · `ch10-plate`
+`ch08` · `ch08-plate` · `ch09` · `ch09-plate` · `ch10` · `ch10-plate` ·
+`ch11` · `ch11-plate` · `ch12` · `ch12-plate`
 
 Open `images.html` in the site at any time for a live checklist.
 
@@ -102,6 +103,10 @@ locked.
 *Why:* the creed as a fence around a mystery, not an explanation of it. Note the field
 should look *spacious* — the fence is not a cage.
 
+### `ch11.jpg` — Bread and Sleep and Sabbath
+> A flat round loaf and a clay water jar resting on a warm stone at first light, with pale
+> desert hills beyond. Long low golden light. Nothing else in frame.
+
 ### `ch05-plate.jpg` — Brother Lawrence
 > A seventeenth-century monastery kitchen: a scrubbed wooden table, a stack of plates, a
 > copper pot, a single high window throwing light across the floor. Nobody in the room.
@@ -126,6 +131,19 @@ should look *spacious* — the fence is not a cage.
 > An open medieval psalter on a lectern in a dim church, showing musical notation rather
 > than legible words, one candle burning low beside it.
 
+### `ch11-plate.jpg` — the broom tree
+> A single scrubby desert broom bush, chest-high and sparse, alone on pale stony ground
+> under a wide dawn sky. A clay water jar and a flat round loaf on a stone beside it. No
+> figure.
+
+### `ch12.jpg` — Doubting Castle
+> A heavy iron-banded door at the foot of stone dungeon steps, seen from inside, with one
+> narrow shaft of early light falling across the floor toward it. The door is closed.
+
+### `ch12-plate.jpg` — Bedford gaol
+> A small barred window high in a rough stone cell wall, a plank table below it with an
+> inkpot, a quill, and a stack of written pages weighted by a stone. Morning light.
+
 ---
 
 ## Queued (generate whenever, slots not yet live)
@@ -138,8 +156,6 @@ should look *spacious* — the fence is not a cage.
 | `ch08.jpg` | Examined but Not Absorbed | A hand-held mirror lying face-up on a table, reflecting a window rather than a face. |
 | `ch09.jpg` | The Cup and the Garden | An olive grove at night under a heavy moon, ancient gnarled trunks, one patch of ground disturbed. No figure. |
 | `ch10.jpg` | Lament | Rain on a stone church step at night with warm light spilling out of the half-open door behind it. |
-| `ch11.jpg` | Bread and Sleep and Sabbath | A loaf, a water jar, and a folded cloak under a solitary desert broom tree at first light. |
-| `ch12.jpg` | The Key of Promise | An iron key lying in an open palm in a shaft of light through a barred window; the door itself out of frame. |
 | `ch13.jpg` | Ordered Affections | An overgrown formal garden being brought back into order, half wild and half pruned, in late light. |
 | `ch14.jpg` | Truth in Love | Two chairs turned toward each other across a small table by a window, both occupied-looking but empty. |
 | `ch15.jpg` | Burdens and Loads | Two figures at a distance on a hill path, one carrying a pack, the other reaching back a hand. |
