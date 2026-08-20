@@ -35,17 +35,16 @@ is not the last word; the art should not contradict it on the way in.
 
 ---
 
-## Done ✓ — 25 of 31
+## Complete — 31 of 31 ✓
 
-Everything except the six below.
+All artwork is generated and installed. Nothing outstanding.
 
-## Still needed
-
-`ch05` · `ch06` · `ch07` · `ch08` · `ch09` · `ch10`
-
-These are the chapter heroes for Parts II and III. All six of their *plates* are done — it
-is only the wide header images that are outstanding. Prompts for all six are in the queued
-table further down.
+**One note for any future regeneration:** the slots are aspect-ratio locked at **1024×572**
+and use `object-fit: cover`, so an image at a different ratio gets silently cropped rather
+than erroring — invisible in a browser. `ch09.jpg` arrived at 1024×434 and was padded with
+an extension of its own parchment border rather than cropped, which preserved the whole
+composition. The build now warns automatically if any image is off-ratio, so just watch the
+build output.
 
 Open `images.html` in the site at any time for a live checklist.
 
