@@ -1,0 +1,415 @@
+/* ============================================================
+   Keep Your Heart — main stylesheet
+   Large print is a hard requirement: base 20px, generous leading,
+   restrained measure, high contrast.
+   ============================================================ */
+
+:root{
+  --paper:#faf6ee;
+  --paper-2:#f3ece0;
+  --ink:#221d17;
+  --ink-soft:#4a4038;
+  --rule:#d9cdb8;
+  --navy:#1e2c40;
+  --navy-soft:#334a68;
+  --amber:#a86a17;
+  --teal:#1f6b63;
+  --gold:#9a7b1f;
+  --grey:#5f5c57;
+  --plum:#5c3a58;
+  --measure:38rem;
+}
+
+*{box-sizing:border-box;}
+
+html{font-size:20px;scroll-behavior:smooth;}
+
+body{
+  margin:0;
+  background:var(--paper);
+  color:var(--ink);
+  font-family:"EB Garamond","Cormorant Garamond",Georgia,"Times New Roman",serif;
+  font-size:1rem;
+  line-height:1.72;
+  -webkit-text-size-adjust:100%;
+}
+
+/* ---------- Layout ---------- */
+
+.wrap{max-width:74rem;margin:0 auto;padding:0 1.25rem;}
+
+.layout{display:flex;gap:3rem;align-items:flex-start;}
+
+main{flex:1 1 auto;min-width:0;max-width:var(--measure);padding:2rem 0 5rem;}
+
+nav.side{
+  flex:0 0 15rem;
+  position:sticky;
+  top:1.5rem;
+  padding:2rem 0;
+  font-size:.82rem;
+  line-height:1.5;
+}
+
+@media (max-width:860px){
+  .layout{flex-direction:column;gap:0;}
+  nav.side{position:static;flex:none;width:100%;border-bottom:1px solid var(--rule);padding-bottom:1.25rem;}
+  main{max-width:100%;}
+}
+
+/* ---------- Masthead ---------- */
+
+header.mast{
+  background:var(--navy);
+  color:var(--paper);
+  border-bottom:4px solid var(--amber);
+}
+header.mast .wrap{padding-top:1.4rem;padding-bottom:1.4rem;}
+header.mast a{color:var(--paper);text-decoration:none;}
+header.mast .title{
+  font-size:1.5rem;
+  letter-spacing:.02em;
+  font-weight:600;
+  display:block;
+}
+header.mast .sub{
+  display:block;
+  font-size:.8rem;
+  color:#c9d4e2;
+  font-style:italic;
+  margin-top:.15rem;
+}
+
+/* ---------- Sidebar nav ---------- */
+
+nav.side h2{
+  font-size:.72rem;
+  text-transform:uppercase;
+  letter-spacing:.14em;
+  color:var(--ink-soft);
+  font-weight:600;
+  margin:1.5rem 0 .5rem;
+  padding-bottom:.3rem;
+  border-bottom:1px solid var(--rule);
+}
+nav.side h2:first-child{margin-top:0;}
+nav.side ul{list-style:none;margin:0;padding:0;}
+nav.side li{margin:.32rem 0;}
+nav.side a{color:var(--navy-soft);text-decoration:none;}
+nav.side a:hover{color:var(--amber);text-decoration:underline;}
+nav.side a.here{color:var(--amber);font-weight:600;}
+nav.side .num{color:var(--rule);font-variant-numeric:tabular-nums;margin-right:.35rem;}
+nav.side .pending{color:#a99e8c;}
+
+/* ---------- Typography ---------- */
+
+h1{
+  font-size:2rem;
+  line-height:1.18;
+  font-weight:600;
+  margin:.4rem 0 .4rem;
+  letter-spacing:-.01em;
+}
+.kicker{
+  font-size:.74rem;
+  text-transform:uppercase;
+  letter-spacing:.16em;
+  color:var(--amber);
+  font-weight:600;
+  margin:0;
+}
+.deck{
+  font-size:1.06rem;
+  font-style:italic;
+  color:var(--ink-soft);
+  margin:0 0 1.8rem;
+  padding-bottom:1.4rem;
+  border-bottom:1px solid var(--rule);
+}
+h2{
+  font-size:1.3rem;
+  font-weight:600;
+  margin:2.6rem 0 .7rem;
+  line-height:1.28;
+}
+h3{
+  font-size:1.05rem;
+  font-weight:600;
+  margin:1.9rem 0 .5rem;
+}
+p{margin:0 0 1.05rem;}
+a{color:var(--navy-soft);}
+a:hover{color:var(--amber);}
+em{font-style:italic;}
+strong{font-weight:600;}
+ul,ol{margin:0 0 1.05rem;padding-left:1.4rem;}
+li{margin:.4rem 0;}
+blockquote{
+  margin:1.6rem 0;
+  padding:0 0 0 1.2rem;
+  border-left:3px solid var(--amber);
+  font-style:italic;
+  color:var(--ink-soft);
+}
+blockquote cite{display:block;font-style:normal;font-size:.82rem;margin-top:.5rem;color:var(--grey);}
+hr{border:0;border-top:1px solid var(--rule);margin:2.6rem 0;}
+
+.lead{font-size:1.08rem;}
+
+/* ---------- Boxed components ---------- */
+
+.box{
+  margin:1.9rem 0;
+  padding:1.1rem 1.3rem;
+  border-radius:3px;
+  font-size:.9rem;
+  line-height:1.62;
+}
+.box > :last-child{margin-bottom:0;}
+.box .lbl{
+  display:block;
+  font-size:.68rem;
+  text-transform:uppercase;
+  letter-spacing:.14em;
+  font-weight:700;
+  margin-bottom:.5rem;
+}
+
+/* Scripture warrant tiers */
+.warrant{background:var(--paper-2);border-left:4px solid var(--grey);}
+.warrant .lbl{color:var(--grey);}
+.warrant .ref{font-weight:600;font-style:normal;}
+.w-direct{border-left-color:var(--teal);}
+.w-direct .lbl{color:var(--teal);}
+.w-entailed{border-left-color:var(--gold);}
+.w-entailed .lbl{color:var(--gold);}
+.w-both{border-left:4px solid transparent;border-image:linear-gradient(180deg,var(--teal),var(--gold)) 1;}
+.w-both .lbl{color:var(--teal);}
+.w-interp{border-left-color:var(--amber);}
+.w-interp .lbl{color:var(--amber);}
+.w-contested{border-left-color:var(--grey);}
+.w-hist{border-left-color:var(--plum);}
+.w-hist .lbl{color:var(--plum);}
+
+/* Sidebar for a counselor who may not share the framework */
+.clinician{
+  background:#eef2f7;
+  border:1px solid #c6d2e0;
+  border-left:4px solid var(--navy-soft);
+}
+.clinician .lbl{color:var(--navy-soft);}
+
+/* Composite case study */
+.case{
+  background:#fbf3e6;
+  border:1px solid #e6d5b4;
+  border-left:4px solid var(--amber);
+}
+.case .lbl{color:var(--amber);}
+.case .disc{font-size:.76rem;color:var(--grey);font-style:italic;margin-top:.7rem;}
+
+/* Workbook practice */
+.practice{
+  background:#eef4ef;
+  border:1px solid #c3d9c8;
+  border-left:4px solid var(--teal);
+}
+.practice .lbl{color:var(--teal);}
+.practice ol{padding-left:1.3rem;}
+
+/* Scripture memory */
+.memory{
+  background:var(--navy);
+  color:#f0ece3;
+  border-left:4px solid var(--amber);
+}
+.memory .lbl{color:#e0b268;}
+.memory .verse{font-size:1.02rem;font-style:italic;line-height:1.6;}
+.memory .cit{font-size:.78rem;color:#b9c5d5;font-style:normal;display:block;margin-top:.5rem;}
+
+/* Safety / hand-this-to-your-clinician boundary */
+.safety{
+  background:#f7ecec;
+  border:1px solid #ddbdbd;
+  border-left:4px solid #a03b3b;
+}
+.safety .lbl{color:#a03b3b;}
+
+/* Term definition */
+.define{
+  background:var(--paper-2);
+  border:1px dashed var(--rule);
+}
+.define .lbl{color:var(--ink-soft);}
+.define dt{font-weight:600;margin-top:.55rem;}
+.define dt:first-of-type{margin-top:0;}
+.define dd{margin:.15rem 0 0;padding:0;}
+
+/* ---------- The nutshell ----------
+   Keller's move made structural: build the tension in prose, then compress
+   it into one line that can be carried out of the room. Every nutshell on
+   the site is harvested automatically into the Nutshells page, so the
+   distilled version of the book maintains itself. */
+
+.nutshell{
+  margin:2.2rem 0;
+  padding:1.15rem 0 1.15rem 1.5rem;
+  border-top:2px solid var(--amber);
+  border-bottom:1px solid var(--rule);
+  border-left:0;
+  font-size:1.16rem;
+  line-height:1.5;
+  font-weight:600;
+  color:var(--navy);
+  max-width:32rem;
+  position:relative;
+}
+.nutshell::before{
+  content:"";
+  position:absolute;
+  left:0;
+  top:1.5rem;
+  bottom:1.5rem;
+  width:3px;
+  background:var(--amber);
+  opacity:.35;
+}
+.nutshell em{font-style:italic;font-weight:600;}
+
+.nutshells-list{list-style:none;margin:0;padding:0;}
+.nutshells-list li{
+  margin:0 0 1.1rem;
+  padding-left:1.1rem;
+  border-left:3px solid var(--rule);
+  font-size:1.02rem;
+  line-height:1.5;
+}
+.nutshells-list li:hover{border-left-color:var(--amber);}
+.nutshells-group{margin:0 0 2.4rem;}
+.nutshells-group h3{
+  font-size:.76rem;
+  text-transform:uppercase;
+  letter-spacing:.14em;
+  color:var(--amber);
+  border-bottom:1px solid var(--rule);
+  padding-bottom:.35rem;
+  margin:0 0 1rem;
+}
+.nutshells-group h3 a{text-decoration:none;color:inherit;}
+
+/* ---------- Images ----------
+   Art is optional by design: each slot carries a layered gradient beneath
+   the artwork, so a missing or not-yet-generated image degrades to an
+   intentional-looking field rather than a broken box. */
+
+.hero{
+  margin:0 0 1.6rem;
+  height:15rem;
+  border-radius:3px;
+  background-color:var(--navy);
+  background-image:
+    linear-gradient(180deg, rgba(30,44,64,.05) 0%, rgba(30,44,64,.55) 72%, rgba(30,44,64,.82) 100%),
+    var(--art, none),
+    linear-gradient(150deg, #2b3d54 0%, #4a5a6e 45%, #8a6a3c 100%);
+  background-size:cover, cover, cover;
+  background-position:center, center 42%, center;
+  background-repeat:no-repeat;
+  box-shadow:inset 0 0 0 1px rgba(0,0,0,.12);
+}
+@media (max-width:860px){ .hero{height:11rem;} }
+
+figure.plate{
+  margin:2.2rem 0;
+  padding:0;
+}
+figure.plate .art{
+  height:11rem;
+  border-radius:3px;
+  background-color:var(--paper-2);
+  background-image:
+    linear-gradient(180deg, rgba(30,44,64,.02), rgba(30,44,64,.28)),
+    var(--art, none),
+    linear-gradient(150deg, #d8cbb2 0%, #a9a08c 55%, #6b6f7a 100%);
+  background-size:cover, cover, cover;
+  background-position:center;
+  background-repeat:no-repeat;
+  box-shadow:inset 0 0 0 1px rgba(0,0,0,.12);
+}
+figure.plate figcaption{
+  font-size:.78rem;
+  color:var(--grey);
+  font-style:italic;
+  margin-top:.5rem;
+  line-height:1.5;
+}
+
+/* ---------- Chapter navigation ---------- */
+
+.chapnav{
+  display:flex;
+  justify-content:space-between;
+  gap:1rem;
+  margin-top:3.2rem;
+  padding-top:1.2rem;
+  border-top:1px solid var(--rule);
+  font-size:.85rem;
+}
+.chapnav a{text-decoration:none;}
+.chapnav .prev::before{content:"\2190\00a0";}
+.chapnav .next::after{content:"\00a0\2192";}
+
+/* ---------- Contents cards on index ---------- */
+
+.parts{margin:2rem 0;}
+.part{margin:0 0 2rem;}
+.part h3{
+  font-size:.76rem;
+  text-transform:uppercase;
+  letter-spacing:.14em;
+  color:var(--amber);
+  border-bottom:1px solid var(--rule);
+  padding-bottom:.35rem;
+  margin:0 0 .7rem;
+}
+.part ol{list-style:none;margin:0;padding:0;counter-reset:none;}
+.part li{margin:.5rem 0;display:flex;gap:.7rem;align-items:baseline;}
+.part .n{
+  flex:0 0 1.7rem;
+  font-variant-numeric:tabular-nums;
+  color:var(--rule);
+  font-weight:600;
+}
+.part .t{flex:1 1 auto;}
+.part .t a{text-decoration:none;font-weight:600;}
+.part .t .gloss{display:block;font-size:.82rem;color:var(--ink-soft);font-weight:400;}
+.part .t.soon{color:#a99e8c;font-weight:600;}
+.part .t.soon .gloss{color:#b3a998;}
+
+/* ---------- Footer ---------- */
+
+footer.foot{
+  border-top:1px solid var(--rule);
+  background:var(--paper-2);
+  font-size:.78rem;
+  color:var(--ink-soft);
+  line-height:1.6;
+}
+footer.foot .wrap{padding-top:1.6rem;padding-bottom:2.4rem;}
+footer.foot p{margin:0 0 .6rem;max-width:52rem;}
+footer.foot a{color:var(--navy-soft);}
+
+/* ---------- Print ---------- */
+
+@media print{
+  html{font-size:13pt;}
+  body{background:#fff;color:#000;}
+  header.mast,nav.side,.chapnav{display:none;}
+  .layout{display:block;}
+  main{max-width:100%;padding:0;}
+  .box{border:1px solid #999;background:#fff;page-break-inside:avoid;}
+  .memory{background:#fff;color:#000;}
+  .memory .cit{color:#444;}
+  a{color:#000;text-decoration:none;}
+  h2,h3{page-break-after:avoid;}
+  .practice{page-break-inside:auto;}
+}
