@@ -66,14 +66,25 @@ One note on the border: the Parts I–V set carries a torn-paper edge. Whether t
 is your call — keeping it unifies the whole site, dropping it makes the section change more
 visible. Either works; just be consistent within the wing.
 
-### `bruised-reed.jpg` — the wing door
+### The frame Gemini invented — keep it
+
+The Part VI set came back with a recurring device that was not in the brief and is better than
+what was asked for: **the same stone room throughout** — a dark alcove holding a bruised reed in
+a clay jug, and an arched window opening onto light. Only the view through the window changes
+from chapter to chapter.
+
+That is now the house rule for the wing. Any remaining Part VI image should keep the room, keep
+the reed in shadow, and change only what is visible through the arch. The reader stands in the
+dim room for all eight chapters; what they are looking out at is the subject.
+
+### `bruised-reed.jpg` — the wing door ✓
 > A single slender reed at the edge of still water, bent almost double but rooted and green,
 > under wide luminous dawn light. Soft marsh and pale sky beyond. Gentle golden glow on the
 > water. Bent, not broken.
 
 *Why:* Isaiah 42:3. The whole wing in one image — real damage, still living, and lit.
 
-### `ch21.jpg` — Guilt That Repairs, Shame That Consumes
+### `ch21.jpg` ✓ — Guilt That Repairs, Shame That Consumes
 > A small charcoal fire burning low on a quiet lakeshore at dawn, bread and fish on a flat
 > stone beside it, water glassy and still, warm golden light spreading across it. Nobody in
 > frame. Welcoming and unhurried.
@@ -81,7 +92,7 @@ visible. Either works; just be consistent within the wing.
 *Why:* John 21. Breakfast already cooking before anyone arrives to apologize. This one should
 be the warmest image in the wing.
 
-### `ch21-plate.jpg` — the other fire
+### `ch21-plate.jpg` ✓ — the other fire
 > A brazier of embers in an enclosed stone courtyard before dawn, cool blue shadow, an empty
 > stool beside it. Same soft painterly treatment, but cooler and dimmer — no harshness, only
 > the absence of warmth.
@@ -90,6 +101,19 @@ be the warmest image in the wing.
 two different worlds, which is the argument of the chapter.
 
 ### Queued — the rest of Part VI
+
+**All eight heroes done. Plates for 17 and 20 done.** Two plates remain:
+
+**A second convention appeared in the plates and is worth keeping:** heroes carry the *alcove
+with the bruised reed*; plates carry the *lectern with the open book and the small flask*. Same
+room, different furniture — so a reader can tell a hero from a plate at a glance. Keep it.
+
+| File | Chapter | Prompt subject — keep the room, change the window |
+|---|---|---|
+| `ch18-plate.jpg` | Searched, Not Surveilled | Through the arch: a stone well at noon in flat bright heat, a clay water jar set down and abandoned on the ground beside it. No figure. |
+| `ch19-plate.jpg` | Care That Was Not Care | Through the arch: an empty pasture at dusk with a shepherd's crook lying on the ground, unattended; sheep scattered on distant hills. |
+
+<details><summary>Original per-chapter subjects, now superseded by the room frame</summary>
 
 | File | Chapter | Prompt subject |
 |---|---|---|
@@ -101,7 +125,7 @@ two different worlds, which is the argument of the chapter.
 | `ch23.jpg` | A Name They Did Not Give You | A small smooth white stone resting in an open palm, luminous, softly lit, everything else out of focus. |
 | `ch24.jpg` | The Record That Survives | A leather-bound book open on a lectern in warm diffused light, pages full of writing too soft to read, a small glass vessel beside it. |
 
-Plates for these will be specified as each chapter is written.
+</details>
 
 **One note for any future regeneration:** the slots are aspect-ratio locked at **1024×572**
 and use `object-fit: cover`, so an image at a different ratio gets silently cropped rather
