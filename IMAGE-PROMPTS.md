@@ -110,8 +110,9 @@ room, different furniture — so a reader can tell a hero from a plate at a glan
 
 | File | Chapter | Prompt subject — keep the room, change the window |
 |---|---|---|
-| `ch22-plate.jpg` | What Was Done To You | Through the arch: a grain store doorway in warm Egyptian light, sacks stacked, one open with a silver cup half-buried in the grain. |
-| `ch23-plate.jpg` | A Name They Did Not Give You | Through the arch: a city gate at dusk, two figures small and distant walking toward it together, one slightly ahead. |
+| `ch24-plate.jpg` | The Record That Survives | Through the arch: a small glass tear-bottle on a stone sill in warm low light, and beside it an open book with handwriting too soft to read. |
+
+That is the last image in the book.
 
 **A note on the lectern.** The plates for 18 and 19 came back with the lectern *empty* — no book,
 no flask — where 17 and 20 had both. For 19 that is arguably better than the brief: the whole

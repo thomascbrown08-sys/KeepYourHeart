@@ -402,6 +402,16 @@ figure.plate figcaption{
   line-height:1.5;
 }
 
+p.seealso{
+  font-size:.86rem;
+  font-style:italic;
+  color:var(--ink-soft);
+  border-left:3px solid var(--rule);
+  padding:.15rem 0 .15rem .9rem;
+  margin:1.4rem 0;
+}
+p.seealso a{font-style:normal;font-weight:600;}
+
 /* Toolbox cross-reference */
 .toolbox{
   background:#eef2f7;
