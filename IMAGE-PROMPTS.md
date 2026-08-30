@@ -110,8 +110,15 @@ room, different furniture — so a reader can tell a hero from a plate at a glan
 
 | File | Chapter | Prompt subject — keep the room, change the window |
 |---|---|---|
-| `ch18-plate.jpg` | Searched, Not Surveilled | Through the arch: a stone well at noon in flat bright heat, a clay water jar set down and abandoned on the ground beside it. No figure. |
-| `ch19-plate.jpg` | Care That Was Not Care | Through the arch: an empty pasture at dusk with a shepherd's crook lying on the ground, unattended; sheep scattered on distant hills. |
+| `ch22-plate.jpg` | What Was Done To You | Through the arch: a grain store doorway in warm Egyptian light, sacks stacked, one open with a silver cup half-buried in the grain. |
+| `ch23-plate.jpg` | A Name They Did Not Give You | Through the arch: a city gate at dusk, two figures small and distant walking toward it together, one slightly ahead. |
+
+**A note on the lectern.** The plates for 18 and 19 came back with the lectern *empty* — no book,
+no flask — where 17 and 20 had both. For 19 that is arguably better than the brief: the whole
+charge in Ezekiel 34 is omission, so a dropped crook, scattered sheep and a bare lectern say the
+same thing three ways. If you want a rule going forward: **book present when the chapter is about
+what Scripture supplies, absent when the chapter is about what was missing.** Otherwise leave them
+varied; nobody will notice and both read well.
 
 <details><summary>Original per-chapter subjects, now superseded by the room frame</summary>
 
