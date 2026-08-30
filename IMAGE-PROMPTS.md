@@ -35,9 +35,73 @@ is not the last word; the art should not contradict it on the way in.
 
 ---
 
-## Complete — 31 of 31 ✓
+## Part I–V complete — 31 of 31 ✓
 
-All artwork is generated and installed. Nothing outstanding.
+## Part VI — The Bruised Reed
+
+**Different house style from here on.** Parts I–V use the darker painterly plates. The wing
+uses the luminous devotional style from *My Toolbox* — brighter, warmer, more hopeful. That is
+deliberate: this is the part of the book about damage, and the art should not agree with the
+damage.
+
+Nothing already made needs redoing. The two styles sit side by side because they mark two
+different sections, and the page palette shifts with them automatically — the wing's fallback
+gradients and accents are already pitched to creams, soft blues and gold rather than navy.
+
+### House style preamble for Part VI
+
+Paste this in front of every Part VI prompt:
+
+> A soft, atmospheric oil painting on canvas in a classical devotional style. No dramatic
+> contrast or sharp realism — everything softened into a painterly, dreamlike atmosphere.
+> Muted earth tones with gentle, luminous light; warm creams, soft blues, and golden
+> undertones, desaturated and harmonious. Subtle canvas texture, smooth blended brushstrokes,
+> no harsh edges. Diffused, glowing light creating a calm, contemplative mood. The composition
+> feels symbolic and reverent rather than sharply detailed or photorealistic. No text, no
+> lettering, no watermarks, no faces in close-up. Wide horizontal composition.
+
+Same dimensions as everything else: **1024×572**, lowercase `.jpg`.
+
+One note on the border: the Parts I–V set carries a torn-paper edge. Whether the wing keeps it
+is your call — keeping it unifies the whole site, dropping it makes the section change more
+visible. Either works; just be consistent within the wing.
+
+### `bruised-reed.jpg` — the wing door
+> A single slender reed at the edge of still water, bent almost double but rooted and green,
+> under wide luminous dawn light. Soft marsh and pale sky beyond. Gentle golden glow on the
+> water. Bent, not broken.
+
+*Why:* Isaiah 42:3. The whole wing in one image — real damage, still living, and lit.
+
+### `ch21.jpg` — Guilt That Repairs, Shame That Consumes
+> A small charcoal fire burning low on a quiet lakeshore at dawn, bread and fish on a flat
+> stone beside it, water glassy and still, warm golden light spreading across it. Nobody in
+> frame. Welcoming and unhurried.
+
+*Why:* John 21. Breakfast already cooking before anyone arrives to apologize. This one should
+be the warmest image in the wing.
+
+### `ch21-plate.jpg` — the other fire
+> A brazier of embers in an enclosed stone courtyard before dawn, cool blue shadow, an empty
+> stool beside it. Same soft painterly treatment, but cooler and dimmer — no harshness, only
+> the absence of warmth.
+
+*Why:* John uses the same rare word for both fires. The pair should read as the same object in
+two different worlds, which is the argument of the chapter.
+
+### Queued — the rest of Part VI
+
+| File | Chapter | Prompt subject |
+|---|---|---|
+| `ch17.jpg` | The Room With No Cost | A workshop bench in warm lamplight with a half-finished piece and visible mistakes left in place; unjudging, patient, occupied. |
+| `ch18.jpg` | Searched, Not Surveilled | An open book on a table beneath a wide window, sunlight falling fully across the pages; nothing hidden and nothing threatening. |
+| `ch19.jpg` | Care That Was Not Care | A shepherd's crook leaning against a stone wall in soft pasture light, sheep grazing at a distance, unattended and unafraid. |
+| `ch20.jpg` | Formed and Answerable | A young tree that has grown bent around an obstacle and then straightened, in gentle morning light. Both the bend and the growth visible. |
+| `ch22.jpg` | What Was Done To You | A stone wall whose old break has been repaired with visible new mortar — mended, not disguised — in warm afternoon light. |
+| `ch23.jpg` | A Name They Did Not Give You | A small smooth white stone resting in an open palm, luminous, softly lit, everything else out of focus. |
+| `ch24.jpg` | The Record That Survives | A leather-bound book open on a lectern in warm diffused light, pages full of writing too soft to read, a small glass vessel beside it. |
+
+Plates for these will be specified as each chapter is written.
 
 **One note for any future regeneration:** the slots are aspect-ratio locked at **1024×572**
 and use `object-fit: cover`, so an image at a different ratio gets silently cropped rather
