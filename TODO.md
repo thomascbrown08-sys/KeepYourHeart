@@ -1,6 +1,6 @@
 # Keep Your Heart — TODO
 
-**Last updated:** 2026-09-04 · build v2.2
+**Last updated:** 2026-09-04 · build v2.3
 **Live:** https://thomascbrown08-sys.github.io/KeepYourHeart/
 **Companion:** https://thomascbrown08-sys.github.io/My_Toolbox/
 
@@ -28,7 +28,7 @@ The renumbering is done. **Six Pigglyvale links point at the wrong chapters** un
 
 ## Status
 
-**27 chapters, 24 written, 3 pending.** 39 pages. ~71,000 words. 48 images. 106 nutshells. 81 warrants.
+**27 chapters, 25 written, 2 pending.** 39 pages. ~71,000 words. 48 images. 106 nutshells. 81 warrants.
 Validates clean.
 
 | Part | Chapters | State |
@@ -36,14 +36,24 @@ Validates clean.
 | I · Foundations | 1–4 | complete |
 | II · Attending | 5–8 | complete |
 | III · Enduring | 9–12 | complete |
-| IV · Loving | 13, **14**, 15, **16**, 17 | 14 Anger and 16 Repair pending |
+| IV · Loving | 13, **14**, 15, 16, 17 | 14 Anger pending |
 | V · Closing | 18 | complete |
-| VI · The Bruised Reed | door, 19–21, **22**, 23–27 | 22 Church Hurt pending |
+| VI · The Bruised Reed | door, 19–21, **22**, 23–27 | 22 Church Hurt pending (dials) |
 | Back matter | 6 pages | complete |
 
 ---
 
-## Done this session
+## Done — 2026-09-04, later
+
+- **Wrote Ch 16 · Repair.** Matthew 5:23–24 as the governing text (the altar waits; the trigger is
+  your memory, not their complaint), Zacchaeus naming a figure and assigning himself the heavier
+  penalty, and Proverbs 28:13 pairing *confess* with *forsake*. Four-part anatomy, four grammatical
+  failure modes, and the fourth part — stopping — as the centre of the chapter.
+- **Two image slots still needed:** `ch16.jpg` and `ch16-plate.jpg`. Main-book style (the darker
+  painterly plates, torn-paper border), **not** the wing's devotional style. Prompts are in the image
+  sheet.
+
+## Done earlier this session
 
 - **Recovered the build system.** Every previous zip shipped only the built output; `parts/` and
   `build/` were lost on a container reset and were reconstructed from the published HTML.
@@ -61,10 +71,7 @@ Validates clean.
 
 ## Next up
 
-1. **Write Ch 16 · Repair** — the largest gap and the one Pigglyvale most needs.
-   Spine: naming without the passive voice; no excuse attached in the same breath; what you will do
-   differently; and stopping — not asking to be told it is alright. Zacchaeus naming a figure;
-   Matthew 5:23–24 putting the altar second.
+1. **Generate `ch16.jpg` and `ch16-plate.jpg`** — the only outstanding art.
 2. **Write Ch 14 · Anger.** Ch 13 already sets the frame (emotion as reading). *Be angry and do not
    sin*; and the honest problem that righteous anger is the easiest thing in the world to
    counterfeit from the inside. Needs Ch 21's unteachability guard as a model.

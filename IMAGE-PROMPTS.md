@@ -37,6 +37,24 @@ is not the last word; the art should not contradict it on the way in.
 
 ## Part I–V complete — 31 of 31 ✓
 
+## Main book — outstanding
+
+Two slots, in the **Parts I–V style** (darker painterly plates, torn-paper border) — *not* the
+wing's devotional style.
+
+### `ch16.jpg` — Repair
+> A plain stone altar in open country at first light, a small wrapped offering set down on it and
+> left there, and a dirt path leading away from it into the distance. Nobody in frame. The gift is
+> unattended and the path is clearly walked.
+
+*Why:* Matthew 5:23–24. Leave the gift and go. The whole chapter in one image.
+
+### `ch16-plate.jpg` — Zacchaeus
+> A money-changer's table in a doorway at dusk, a set of balance scales and stacked coins pushed to
+> one side, a ledger open beside them. Warm lamplight. Nobody there.
+
+*Why:* he never says sorry — he names a figure. The audit is the apology.
+
 ## Part VI — The Bruised Reed
 
 **Different house style from here on.** Parts I–V use the darker painterly plates. The wing
