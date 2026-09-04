@@ -1,6 +1,6 @@
 # Keep Your Heart — TODO
 
-**Last updated:** 2026-09-04 · build v2.3
+**Last updated:** 2026-09-04 · build v2.4
 **Live:** https://thomascbrown08-sys.github.io/KeepYourHeart/
 **Companion:** https://thomascbrown08-sys.github.io/My_Toolbox/
 
@@ -28,7 +28,7 @@ The renumbering is done. **Six Pigglyvale links point at the wrong chapters** un
 
 ## Status
 
-**27 chapters, 25 written, 2 pending.** 39 pages. ~71,000 words. 48 images. 106 nutshells. 81 warrants.
+**27 chapters, 26 written, 1 pending.** 39 pages. ~71,000 words. 48 images. 106 nutshells. 81 warrants.
 Validates clean.
 
 | Part | Chapters | State |
@@ -36,12 +36,21 @@ Validates clean.
 | I · Foundations | 1–4 | complete |
 | II · Attending | 5–8 | complete |
 | III · Enduring | 9–12 | complete |
-| IV · Loving | 13, **14**, 15, 16, 17 | 14 Anger pending |
+| IV · Loving | 13–17 | complete |
 | V · Closing | 18 | complete |
 | VI · The Bruised Reed | door, 19–21, **22**, 23–27 | 22 Church Hurt pending (dials) |
 | Back matter | 6 pages | complete |
 
 ---
+
+## Done — 2026-09-04, latest
+
+- **Wrote Ch 14 · Anger.** Ephesians 4:26 (the imperative form, and the clock), James 1:20 as the
+  hinge — *a claim about efficacy, not permission, which survives you being entirely right* — Mark
+  3:5 with anger and grief in the same clause, and the temple handled honestly as premeditated
+  rather than a snap. Five external tests, because the internal ones are compromised by the anger
+  itself.
+- **Art needed:** `ch14.jpg` and `ch14-plate.jpg`, main-book style. Prompts in the image sheet.
 
 ## Done — 2026-09-04, later
 
@@ -71,11 +80,10 @@ Validates clean.
 
 ## Next up
 
-1. **Generate `ch16.jpg` and `ch16-plate.jpg`** — the only outstanding art.
-2. **Write Ch 14 · Anger.** Ch 13 already sets the frame (emotion as reading). *Be angry and do not
-   sin*; and the honest problem that righteous anger is the easiest thing in the world to
-   counterfeit from the inside. Needs Ch 21's unteachability guard as a model.
-3. **Write Ch 22 · Church Hurt** — *blocked on the dials below.*
+1. **Generate four images** — `ch14.jpg`, `ch14-plate.jpg`, `ch16.jpg`, `ch16-plate.jpg`. All
+   main-book style (darker painterly plates, torn-paper border), **not** the wing's devotional
+   style. Prompts written.
+2. **Write Ch 22 · Church Hurt** — *blocked on the dials below. The last chapter.*
 4. **Chapter-foot pointers** — a *where to go next* line at the end of each chapter, on the Lament
    Finder model. Do this after the new chapters exist so nothing is done twice.
 5. Add Toolbox cross-links to the three new chapters as they are written.

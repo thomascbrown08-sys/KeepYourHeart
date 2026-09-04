@@ -42,6 +42,21 @@ is not the last word; the art should not contradict it on the way in.
 Two slots, in the **Parts I–V style** (darker painterly plates, torn-paper border) — *not* the
 wing's devotional style.
 
+### `ch14.jpg` — Anger
+> A blacksmith's forge banked and glowing in a dim workshop at night, the fire contained in stone,
+> tongs and a half-worked piece resting on the anvil beside it. Nobody in frame. The fire is
+> obviously working rather than burning.
+
+*Why:* the same fire that heats a forge burns a house. The chapter is about containment and use,
+not extinguishing.
+
+### `ch14-plate.jpg` — the cords
+> A coil of knotted rope resting on worn stone temple steps in early light, plaited and deliberate.
+> Nothing else.
+
+*Why:* John records that he made the whip first. It took time and both hands — which is the
+chapter's argument in one object.
+
 ### `ch16.jpg` — Repair
 > A plain stone altar in open country at first light, a small wrapped offering set down on it and
 > left there, and a dirt path leading away from it into the distance. Nobody in frame. The gift is
