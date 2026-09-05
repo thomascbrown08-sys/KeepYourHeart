@@ -110,6 +110,14 @@ That is now the house rule for the wing. Any remaining Part VI image should keep
 the reed in shadow, and change only what is visible through the arch. The reader stands in the
 dim room for all eight chapters; what they are looking out at is the subject.
 
+### `ch22.jpg` — Church Hurt
+> Through the arch: a small stone chapel across an empty field at dusk, warm light in one window,
+> the door closed. The path toward it is overgrown but still visible.
+
+### `ch22-plate.jpg` — Simeon's aisle
+> Through the arch: the interior of an old parish church, box pews closed and latched, and three
+> plain wooden chairs set in the centre aisle where they do not belong. Empty. Morning light.
+
 ### `bruised-reed.jpg` — the wing door ✓
 > A single slender reed at the edge of still water, bent almost double but rooted and green,
 > under wide luminous dawn light. Soft marsh and pale sky beyond. Gentle golden glow on the
